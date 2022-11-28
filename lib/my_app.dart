@@ -6,8 +6,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FlavorBanner(
-      color: Colors.blue,
-      location: BannerLocation.topStart,
+      color: FlavorConfig.instance.color,
+      location: FlavorConfig.instance.location,
       child: MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(

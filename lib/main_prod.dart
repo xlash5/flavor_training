@@ -7,6 +7,8 @@ import './my_app.dart';
 void main() {
   FlavorConfig(
     name: "PRODUCTION",
+    color: Colors.green,
+    location: BannerLocation.topStart,
     variables: {
       "counter": 10,
       "message": "This is a production message",
